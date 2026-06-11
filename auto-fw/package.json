@@ -1,0 +1,24 @@
+{
+  "name": "auto-fw",
+  "version": "1.0.0",
+  "description": "Automated testing framework using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
